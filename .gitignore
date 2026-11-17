@@ -1,0 +1,47 @@
+# 비밀값·로컬 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# 편집기·운영체제
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Android
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.kotlin/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+*.iml
+android/.idea/*
+!android/.idea/codeStyles/
+*.apk
+*.aab
+# 서명 키는 절대 올리지 않음
+*.jks
+*.keystore
+android/keystore.properties
+# Firebase 설정은 팀 내부로만 공유
+google-services.json
+
+# iOS
+ios/**/xcuserdata/
+ios/**/*.xcuserstate
+ios/DerivedData/
+ios/build/
+ios/**/.swiftpm/
+*.ipa
+*.dSYM.zip
+*.dSYM/
+*.mobileprovision
+*.p12
+GoogleService-Info.plist
